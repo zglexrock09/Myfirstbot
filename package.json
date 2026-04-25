@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-warmer-bot",
+  "version": "1.0.0",
+  "description": "Anti-banned WhatsApp warmer, Telegram control panel, AI reply, and device pairing.",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "openai": "^4.38.2",
+    "telegraf": "^4.12.3",
+    "lowdb": "^6.0.1",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
